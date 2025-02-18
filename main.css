@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+.backgroundMain{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 15px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    background-color: #F4F4F4;
+}
+main{
+    display: flex;
+    margin-top: 100px;
+}
+aside{
+    margin: 5px;
+    margin-top: 0px;
+    width: 396px;
+}
+div.myimage{
+    width: 391px;
+    height: 530px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 22px;
+}
+.social div img{
+    cursor: pointer;
+}
+.apresentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 926px;
+    height: 145px;
+    margin-left: 5px;
+}
+.apresentation p{
+    margin: 20px;
+    font-family: "Saira", serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+.apresentation p b{
+    font-weight: 500;
+    font-size: 45px;
+}
+.sections{
+    display: flex;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 664px;
+    height: 552px;
+    margin-left: 5px;
+}
+h2{
+    margin-top: 0px;
+    font-family: "Saira", serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+.scroll1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 664px;
+    height: 390px;
+}
+.scroll1 img{
+    cursor: pointer;
+    padding: 10px;
+}
+.asidesections{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.asidesections .backgroundMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 252px;
+    height: 252px;
+}
+.scroll2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 232px;
+    height: 132px;
+}
+.scroll2 img{
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+
+
+.apresentationPhone{
+    display: flex;
+}
+.helloText{
+    width: 500px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.helloText p{
+    margin: 20px;
+    font-family: "Saira", serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+.contatosPhone{
+    width: 500px;
+}
+.contatosPhone .layer{
+    display: flex;
+    justify-content: space-around;
+}
+.layer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+}
+.layer div img{
+    cursor: pointer;
+}
