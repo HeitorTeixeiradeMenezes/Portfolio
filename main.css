@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 .backgroundMain{
     background-color: rgb(255, 255, 255);
     margin: 5px;
@@ -12,9 +12,26 @@ body{
     margin: 0px;
     background-color: #F4F4F4;
 }
+nav{
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+nav ul li{
+    padding: 10px;   
+    cursor: pointer;
+    margin: 0px 100px 0px 100px;
+    text-decoration: underline;
+    list-style: none;
+    font-family: "Red Hat Text", serif;
+    font-size: 32px;
+}
 main{
     display: flex;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 aside{
     margin: 5px;
@@ -111,10 +128,43 @@ h2{
 }
 
 
+.navMenu{
+    display: none;
+    background: linear-gradient(to right, #bbb9b9, #f4f4f4f8);
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    align-self: start;
+    border-radius: 30p;
+}
+.navMenu img{
+    padding: 25px;
+    cursor: pointer;
+}
+.navMenu ul{
+    position: relative;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-
+}
+.navMenu ul li{   
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 30px;
+    list-style: none;
+    font-family: "Red Hat Text", serif;
+    font-size: 32px;
+}
+.mainphoneModel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .apresentationPhone{
     display: flex;
+    margin-top: 80px;
 }
 .helloText{
     width: 500px;
@@ -145,4 +195,41 @@ h2{
 }
 .layer div img{
     cursor: pointer;
+}
+.pojectsPhoneLayout{
+    display: flex;
+}
+.projectsPhoneMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 660px;
+    height: 400px;
+}
+.projectsPhoneMain div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 620px;
+    height: 250px;
+}
+.projectsPhoneMain div img{
+    padding: 5px;
+    cursor: pointer;
+}
+.toolsPhone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    height: 400px;
+}
+.toolsPhone div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+.toolsPhone div img{
+    margin-bottom: 25px;
 }
