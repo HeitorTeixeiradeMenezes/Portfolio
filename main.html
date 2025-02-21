@@ -7,14 +7,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
-    <nav>
-        <ul>
-            <li>Sobre Mim</li>
-            <li>Habilidades</li>
-            <li>Experiência</li>
-        </ul>
-    </nav>
+    <div class="menuButton"><img src="./mainImages/menuButton.png" alt=""></div>
     <div class="navMenu">
         <img src="./mainImages/xButton.png" alt="">
         <ul>
@@ -23,93 +16,96 @@
             <li>Experiência</li>
         </ul>
     </div>
+    <nav>
+        <ul>
+            <li>Sobre Mim</li>
+            <li>Habilidades</li>
+            <li>Experiência</li>
+        </ul>
+    </nav>
     <main>
-        <aside>
-            <div class="myimage backgroundMain">
-                <img src="./mainImages/selfImageDesktop.png" alt="">
-            </div>
-            <div class="social">
-                <div class="backgroundMain"><img src="./mainImages/gitHubDesktop.png" alt=""></div>
-                <div class="backgroundMain"><img src="./mainImages/linkedinDesktop.png" alt=""></div>
-            </div>
-        </aside>
-        <article>
-            <div class="apresentation backgroundMain">
-                <p>Olá meu nome é <b>Heitor</b> e sou <b>Desenvolvedor Web</b> e <b>Designer Ui/Ux</b></p>
-            </div>
-            <div class="sections">
-                <div class="projects backgroundMain">
-                    <h2>Projetos Pessoais</h2>
-                    <div class="scroll1">
-                        <img src="./mainImages/ArrowLeft.png" alt="">
-                        <img src="./mainImages/Project1.png" alt="">
-                        <img src="./mainImages/arrowRigth.png" alt="">
+        <div class="homePage">
+            <aside>
+                <div class="myimage backgroundMain">
+                    <img src="./mainImages/selfImageDesktop.png" alt="">
+                </div>
+            </aside>
+            <article>
+                <div class="apresentation backgroundMain">
+                    <p>Olá meu nome é <b>Heitor</b> e sou <b>Desenvolvedor Web</b> e <b>Designer Ui/Ux</b></p>
+                </div>
+                <div class="social">
+                    <h2>Contatos</h2>
+                    <div class="socialLayers">
+                        <div class="socialLayer1">
+                            <div class="backgroundMain"><img src="./mainImages/gitHubDesktop.png" alt=""></div>
+                            <div class="backgroundMain"><img src="./mainImages/linkedinDesktop.png" alt=""></div>
+                            <div class="backgroundMain"><img src="./mainImages/gmail.png" alt=""></div>
+                        </div>
+                        <div class="socialLayer2">
+                            <div class="backgroundMain"><img src="./mainImages/insta.png" alt=""></div>
+                            <div class="backgroundMain"><img src="./mainImages/whatsapp.png" alt=""></div>
+                            <div class="backgroundMain"><img src="./mainImages/telefone.png" alt=""></div>
+                        </div>
                     </div>
                 </div>
-                <div class="asidesections">
-                    <div class="backgroundMain">
-                        <h2>Contato</h2>
-                        <div class="scroll2">
-                            <img src="./mainImages/ArrowLeft.png" alt="">
-                            <img src="./mainImages/insta.png" alt="">
-                            <img src="./mainImages/arrowRigth.png" alt="">
-                        </div>
+            </article>
+        </div>
+        
+        <article class="sobreMim">
+            <div class="sobreMimPhoto backgroundMain">
+                <img src="./mainImages/ImagemFoda.jpg" alt="">
+            </div>
+            <div class="sobreMimTexto">
+                <h1>Sobre Mim</h1>
+                <div class="sobreP backgroundMain">
+                    <p>Meu nome é Heitor e sou <b>desenvolvedor web front-end</b>, tenho 19 anos e estou cursando <b>Sistemas de Informação</b> na Universidade Federal de Uberlândia (<b>UFU</b>), atualmente no 2º período. Ao longo da minha jornada, adquiri um sólido conhecimento em <b>design e programação</b> por meio de cursos na Udemy e outras escolas especializadas, o que me permitiu aprimorar minhas habilidades na criação de interfaces modernas, responsivas e acessíveis.Além dos estudos e do trabalho com desenvolvimento, gosto de equilibrar minha rotina praticando <b>skate</b> e <b>jogando</b>, atividades que me ajudam a manter a criatividade e o pensamento estratégico. Estou sempre em busca de novos desafios e oportunidades para evoluir profissionalmente e contribuir com projetos inovadores.</p>
+                </div>    
+            </div>
+        </article>
+
+        <article class="habilidades">
+            <h1>Habilidades</h1>
+            <div class="tecnologias">
+                <div class="haaa">
+                    <div class="especificationTecnologia">
+                        <h4>Inglês - Fluente</h4>
+                        <div class="backgroundMain"><img src="./mainImages/Ingles.png" alt=""></div>
                     </div>
-                    <div class="backgroundMain">
-                        <h2>Ferramentas</h2>
-                        <div class="scroll2">
-                            <img src="./mainImages/ArrowLeft.png" alt="">
-                            <img src="./mainImages/js.png" alt="">
-                            <img src="./mainImages/arrowRigth.png" alt="">
-                        </div>
+                    <div class="textTecnologias backgroundMain">
+                        <p>Formado no curso de inglês da Park Idiomas e frequentemente usado para comunicar e também para consumir produtos em inglês.</p>
+                    </div>
+                </div>
+                <div class="haaa">
+                    <div class="especificationTecnologia">
+                        <h4>Html & Css</h4>
+                        <div class="backgroundMain"><img src="./mainImages/htmlCss.png" alt=""></div>
+                    </div>
+                    <div class="textTecnologias backgroundMain">
+                        <p>Curso concluído na udemy <a href="">Web Frontend Fundamentos HTML CSS</a> com certificado. (6meses exp)</p>
+                    </div>
+                </div>
+                <div class="haaa">
+                    <div class="especificationTecnologia">
+                        <h4>Web Design</h4>
+                        <div class="backgroundMain"><img src="./mainImages/figma.png" alt=""></div>
+                    </div>
+                    <div class="textTecnologias backgroundMain">
+                        <p>Curso concluído na udemy <a href="">Complete Web Design</a> com certificado. (6 meses exp)</p>
+                    </div>
+                </div>
+                <div class="haaa">
+                    <div class="especificationTecnologia">
+                        <h4>JavaScrip</h4>
+                        <div class="backgroundMain"><img src="./mainImages/js.png" alt=""></div>
+                    </div>
+                    <div class="textTecnologias backgroundMain">
+                        <p>Curso em andamento na udemy <a href="">Curso de JavaScript</a> Completo. (6 meses exp)</p>
                     </div>
                 </div>
             </div>
         </article>
     </main>
-    <div class="mainphoneModel">
-        <div class="apresentationPhone">
-            <div class="photo backgroundMain">
-                <img src="./mainImages/selfImageDesktop.png" alt="">
-            </div>
-            <div class="socialphone">
-                <div class="socialdivs">
-                    <div class="backgroundMain helloText"><p>Olá meu nome é Heitor e sou Desenvolvedor Web e Designer Ui/Ux</p></div>
-                    <div class="contatosPhone">
-                        <div class="layer">
-                            <div class="backgroundMain"><img src="./mainImages/gitHubDesktop.png" alt=""></div>
-                            <div class="backgroundMain"><img src="./mainImages/linkedinDesktop.png" alt=""></div>
-                        </div>
-                        <div class="layer">
-                            <div class="backgroundMain"><img src="./mainImages/insta.png" alt=""></div>
-                            <div class="backgroundMain"><img src="./mainImages/whatsapp.png" alt=""></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="pojectsPhoneLayout">
-            <div class="projectsPhoneMain backgroundMain">
-                <h2>Projetos</h2>
-                <div>
-                    <img src="./mainImages/ArrowLeft.png" alt="">
-                    <img src="./mainImages/Project1.png" alt="">
-                    <img src="./mainImages/arrowRigth.png" alt="">
-                </div>
-            </div>
-            <div class="toolsPhone backgroundMain">
-                <h2>Ferramentas</h2>
-                <div>
-                    <img src="./mainImages/js.png" alt="">
-                    <img src="./mainImages/Node.png" alt="">
-                    <img src="./mainImages/html.png" alt="">
-                    <img src="./mainImages/css.png" alt="">
-                    <img src="./mainImages/figma.png" alt="">
-                    
-                </div>
-            </div>
-            
-        </div>
-    </div>
+    
 </body>
 </html>

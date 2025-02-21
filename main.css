@@ -31,6 +31,11 @@ nav ul li{
 }
 main{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homePage{
+    display: flex;
     margin-top: 0px;
 }
 aside{
@@ -41,21 +46,6 @@ aside{
 div.myimage{
     width: 391px;
     height: 530px;
-}
-.social{
-    display: flex;
-    justify-content: space-between;
-}
-.social div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 150px;
-    margin-top: 22px;
-}
-.social div img{
-    cursor: pointer;
 }
 .apresentation{
     display: flex;
@@ -75,59 +65,135 @@ div.myimage{
     font-weight: 500;
     font-size: 45px;
 }
-.sections{
-    display: flex;
-}
-.projects{
+.social{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 664px;
-    height: 552px;
-    margin-left: 5px;
 }
 h2{
-    margin-top: 0px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
     font-family: "Saira", serif;
     font-size: 35px;
     font-weight: 500;
 }
-.scroll1{
+.socialLayer1{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+}
+.socialLayer1 div{
+    width: 150px;
+    height: 150px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 664px;
-    height: 390px;
+    justify-content: center;
 }
-.scroll1 img{
+.socialLayer2{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+}
+.socialLayer2 div{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social img{
     cursor: pointer;
-    padding: 10px;
-}
-.asidesections{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.asidesections .backgroundMain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 252px;
-    height: 252px;
-}
-.scroll2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 232px;
-    height: 132px;
-}
-.scroll2 img{
-    cursor: pointer;
-    padding: 5px;
 }
 
 
+
+.sobreMim{
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    width: 1310px;
+    position: relative;
+    right: 20px;
+}
+.sobreMimPhoto{
+    width: 478px;
+    height: 631px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobreMimTexto{
+    text-align: right;
+}
+h1{
+    text-align: center;
+    margin: 0px;
+    font-family: "Saira", serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+.sobreP{
+    width: 700px;
+    height: 572px;
+    display: flex;
+    justify-content: center;
+}
+.sobreP p{
+    text-align: right;
+    margin: 30px;
+    font-family: "Red Hat Text", serif;
+    font-size: 23px;
+    letter-spacing: 2.5px;
+}
+.tecnologias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.haaa{
+    display: flex;
+    align-items: end;
+}
+.especificationTecnologia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.especificationTecnologia h4{
+    margin: 0px;
+    font-family: "Saira", serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.especificationTecnologia div{
+    width: 240px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textTecnologias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 150px;
+}
+.textTecnologias p{
+    margin: 20px;
+    font-family: "Red Hat Text", serif;
+    font-size: 24px;
+}
+
+.menuButton{
+    align-self: flex-start;
+}
+.menuButton img{
+    padding: 30px;
+    cursor: pointer;
+}
 .navMenu{
     display: none;
     background: linear-gradient(to right, #bbb9b9, #f4f4f4f8);
@@ -156,80 +222,4 @@ h2{
     list-style: none;
     font-family: "Red Hat Text", serif;
     font-size: 32px;
-}
-.mainphoneModel{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.apresentationPhone{
-    display: flex;
-    margin-top: 80px;
-}
-.helloText{
-    width: 500px;
-    height: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.helloText p{
-    margin: 20px;
-    font-family: "Saira", serif;
-    font-size: 35px;
-    font-weight: 400;
-}
-.contatosPhone{
-    width: 500px;
-}
-.contatosPhone .layer{
-    display: flex;
-    justify-content: space-around;
-}
-.layer div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 150px;
-}
-.layer div img{
-    cursor: pointer;
-}
-.pojectsPhoneLayout{
-    display: flex;
-}
-.projectsPhoneMain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 660px;
-    height: 400px;
-}
-.projectsPhoneMain div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 620px;
-    height: 250px;
-}
-.projectsPhoneMain div img{
-    padding: 5px;
-    cursor: pointer;
-}
-.toolsPhone{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 230px;
-    height: 400px;
-}
-.toolsPhone div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: auto;
-}
-.toolsPhone div img{
-    margin-bottom: 25px;
 }
