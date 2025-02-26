@@ -15,6 +15,9 @@ body{
 main{
     margin-bottom: 150px;
 }
+nav{
+    width: 100%;
+}
 nav ul{
     display: flex;
     justify-content: center;
@@ -47,6 +50,9 @@ aside{
 div.myimage{
     width: 391px;
     height: 530px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }
 .apresentation{
     display: flex;
@@ -110,12 +116,10 @@ h2{
 
 
 .sobreMim{
-    align-self: flex-end;
+    align-self: center;
     display: flex;
     justify-content: space-around;
     width: 1310px;
-    position: relative;
-    right: 20px;
 }
 .sobreMimPhoto{
     width: 478px;
@@ -269,4 +273,148 @@ footer p{
     list-style: none;
     font-family: "Red Hat Text", serif;
     font-size: 32px;
+}
+@media (max-width: 1400px) {
+    aside{
+        width: 296px;
+    }
+    div .myimage{
+        width: 320px;
+        height: 460px;
+    }
+    div .myimage img{
+        width: 320px;
+        height: 420px;
+    }
+    .apresentation{
+        width: 616px;
+        height: 145px;
+        margin-left: 55px;
+    }
+    .apresentation p{
+        margin: 10px;
+        font-size: 30px;
+        line-height: 43px;
+    }
+    .apresentation p b{
+        font-weight: 500;
+        font-size: 35px;
+    }
+    h2{
+        margin-top: 8px;
+        font-size: 30px;
+    }
+    .socialLayers{
+        width: 616px;
+        margin-left: 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialLayer1{
+        width: 540px;
+    }
+    .socialLayer1 div{
+        width: 120px;
+        height: 120px;
+    }
+    .socialLayer2{
+        width: 540px;
+    }
+    .socialLayer2 div{
+        width: 120px;
+        height: 120px;
+    }
+    .social img{
+        width: 90px;
+        height: 90px;
+    }
+    .sobreMim{
+        width: 1000px;
+        right: 0px;
+        align-self: center;
+    }
+    .sobreMimPhoto{
+        width: 378px;
+        height: 531px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sobreMimPhoto img{
+        width: 340px;
+    }
+    .sobreMimTexto{
+        text-align: right;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .sobreP{
+        width: 500px;
+        height: 487px;
+    }
+    .sobreP p{
+        text-align: right;
+        margin: 15px;
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+    .especificationTecnologia h4{
+        margin: 0px;
+        font-family: "Saira", serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .especificationTecnologia div{
+        width: 200px;
+        height: 120px;
+    }
+    .especificationTecnologia div img{
+        width: 80%;
+        height: 80%;
+    }
+    .tecnologias div:nth-of-type(3) .especificationTecnologia div img{
+        width: 100px;
+        height: 100px;
+    }
+    .tecnologias div:nth-of-type(4) .especificationTecnologia div img{
+        width: 80px;
+        height: 80px;
+    }
+    .textTecnologias{
+        width: 550px;
+        height: 120px;
+    }
+    .textTecnologias p{
+        margin: 20px;
+        font-size: 20px;
+    }
+    .projetos h1{
+        text-align: left;
+        margin-left: 20px
+    }
+    .descriptionProjeto{
+        width: 369px;
+        height: 400px;
+    }
+    .descriptionProjeto h3{
+        margin: 15px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .descriptionProjeto p{
+        margin: 25px;
+        font-size: 19px;
+        letter-spacing: 3px;
+    }
+    .imgProjeto{
+        width: 570px;
+        height: 400px;
+    }
+    .imgProjeto img:nth-child(1){
+        width: 510px;
+        margin: 0px;
+    }
 }
