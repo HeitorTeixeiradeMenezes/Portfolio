@@ -278,6 +278,9 @@ footer p{
     font-size: 32px;
 }
 @media (max-width: 1400px) {
+    nav ul li{
+        font-size: 23px;
+    }
     aside{
         width: 296px;
     }
@@ -604,79 +607,76 @@ footer p{
     }
 }
 @media (max-width: 765px){
-    body{
-        background-color: aqua;
-    }
     aside{
-        width: 170px;
+        width: 140px;
     }
     div .myimage{
-        width: 170px;
-        height: 305px;
+        width: 140px;
+        height: 265px;
     }
     div .myimage img{
-        width: 170px;
-        height: 238px;
+        width: 150px;
+        height: 205px;
     }
     .apresentation{
-        width: 280px;
-        height: 100px;
+        width: 250px;
+        height: 90px;
         margin-left: 15px;
     }
     .apresentation p{
         margin: 3px;
         margin-left: 8px;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 20px;
     }
     .apresentation p b{
-        font-size: 18px;
+        font-size: 17px;
     }
     h2{
         margin-top: 0px;
         margin-left: 15px;
-        font-size: 20px;
+        font-size: 19px;
     }
     .socialLayers{
-        width: 280px;
-        margin-left: 15px;
+        width: 250px;
+        margin-left: 8px;
     }
     .socialLayer1{
-        width: 280px;
+        width: 250px;
     }
     .socialLayer1 div{
-        width: 70px;
-        height: 70px;
+        width: 62px;
+        height: 62px;
     }
     .socialLayer2{
-        width: 280px;
+        width: 250px;
     }
     .socialLayer2 div{
-        width: 70px;
-        height: 70px;
+        width: 62px;
+        height: 62px;
     }
     .social img{
-        width: 55px;
-        height: 55px;
+        width: 48px;
+        height: 48px;
     }
     .socialLayer2 div:first-child img{
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
     .socialLayer2 div:last-child img{
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
     .sobreMim{
-        width: 450px;
+        width: 400px;
         flex-direction: column;
         align-items: center;
         right: 0px;
         align-self: center;
     }
     .sobreMimPhoto{
-        width: 400px;
-        height: 240px;
+        width: 340px;
+        height: 190px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -686,8 +686,8 @@ footer p{
         display: none;
     }
     .sobreMimPhoto img:nth-child(2){
-        width: 380px;
-        height: 220px;
+        width: 310px;
+        height: 170px;
     }
     .sobreMimTexto{
         text-align: right;
@@ -697,16 +697,16 @@ footer p{
     }
     h1{
         margin-top: 15px;
-        font-size: 20px;
+        font-size: 19px;
     }
     .sobreP{
-        width: 460px;
+        width: 400px;
         height: 335px;
     }
     .sobreP p{
         text-align: center;
         margin: 15px;
-        font-size: 16.3px;
+        font-size: 15.2px;
         letter-spacing: 0px;
     }
     .especificationTecnologia h4{
@@ -716,11 +716,11 @@ footer p{
         font-weight: 500;
     }
     .especificationTecnologia div{
-        width: 140px;
-        height: 100px;
+        width: 120px;
+        height: 90px;
     }
     .especificationTecnologia div img{
-        width: 70%;
+        width: 80%;
         height: 70%;
     }
     .tecnologias div:nth-of-type(3) .especificationTecnologia div img{
@@ -732,16 +732,16 @@ footer p{
         height: 60px;
     }
     .textTecnologias{
-        width: 300px;
-        height: 100px;
+        width: 270px;
+        height: 90px;
     }
     .textTecnologias p{
         margin: 20px;
-        font-size: 16.3px;
+        font-size: 14.9px;
     }
     .descriptionProjeto{
         order: 1;
-        width: 460px;
+        width: 400px;
         height: 200px;
     }
     .descriptionProjeto h3{
@@ -751,17 +751,23 @@ footer p{
         font-weight: 500;
     }
     .descriptionProjeto p{
+        text-align: center;
         margin: 25px;
-        font-size: 16.5px;
+        font-size: 15.5px;
         letter-spacing: 3px;
     }
     .imgProjeto{
-        width: 440px;
+        width: 400px;
         height: 240px;
     }
     .imgProjeto img:nth-child(1){
-        width: 380px;
+        width: 350px;
         margin: 0px;
     }
-}
+    .imgProjeto img:nth-child(2){
+        width: 20px;
+    }
+    footer p{
+        font-size: 15px;
+    }
 }
