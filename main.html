@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="menuButton"><img src="./mainImages/menuButton.png" alt=""></div>
+    <div id="menuButton" class="menuButton imgCellphone"><img src="./mainImages/menuButton.png" alt=""></div>
     <div class="navMenu">
-        <img src="./mainImages/xButton.png" alt="">
+        <img id="xButton" src="./mainImages/xButton.png" alt="">
         <ul>
             <li>Sobre Mim</li>
             <li>Habilidades</li>
@@ -52,7 +52,7 @@
             </article>
         </div>
         
-        <article class="sobreMim">
+        <article id="sobreMim" class="sobreMim">
             <h1 class="imgCellphone">Sobre Mim</h1>
             <div class="sobreMimPhoto backgroundMain">
                 <img src="./mainImages/ImagemFoda.jpg" alt="">
@@ -66,7 +66,7 @@
             </div>
         </article>
 
-        <article class="habilidades">
+        <article id="habilidades" class="habilidades">
             <h1>Habilidades</h1>
             <div class="tecnologias">
                 <div class="haaa">
@@ -84,7 +84,7 @@
                         <div class="backgroundMain"><img src="./mainImages/htmlCss.png" alt=""></div>
                     </div>
                     <div class="textTecnologias backgroundMain">
-                        <p>Curso concluído na udemy <a href="">Web Frontend Fundamentos HTML CSS</a> com certificado. (6meses exp)</p>
+                        <p>Curso concluído na udemy <a href="https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/">Web Frontend Fundamentos HTML CSS</a> com certificado. (6meses exp)</p>
                     </div>
                 </div>
                 <div class="haaa">
@@ -93,7 +93,7 @@
                         <div class="backgroundMain"><img src="./mainImages/figma.png" alt=""></div>
                     </div>
                     <div class="textTecnologias backgroundMain">
-                        <p>Curso concluído na udemy <a href="">Complete Web Design</a> com certificado. (6 meses exp)</p>
+                        <p>Curso concluído na udemy <a href="https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money/">Complete Web Design</a> com certificado. (6 meses exp)</p>
                     </div>
                 </div>
                 <div class="haaa">
@@ -102,23 +102,23 @@
                         <div class="backgroundMain"><img src="./mainImages/js.png" alt=""></div>
                     </div>
                     <div class="textTecnologias backgroundMain">
-                        <p>Curso em andamento na udemy <a href="">Curso de JavaScript</a> Completo. (6 meses exp)</p>
+                        <p>Curso em andamento na udemy <a href="https://www.udemy.com/course/javascript-completo-2018-do-iniciante-ao-mestre/">Curso de JavaScript</a> Completo. (6 meses exp)</p>
                     </div>
                 </div>
             </div>
         </article>
 
-        <article class="projetos">
+        <article id="projetos" class="projetos">
             <h1>Projetos</h1>
             <div class="containerProjetos">
                 <div class="descriptionProjeto backgroundMain">
-                    <h3>Carsh</h3>
-                    <p>Carsh é um site de aluguel de carros de luxo que fez parte de um projeto pessoal onde testei meus conhecimentos de design para um publico de nicho.</p>
+                    <h3 id="nomeProjeto">Carsh</h3>
+                    <p id="paragrafoProjeto">Carsh é um site de aluguel de carros de luxo que fez parte de um projeto pessoal onde testei meus conhecimentos de design para um publico de nicho.</p>
 
                 </div>
                 <div class="imgProjeto backgroundMain">
-                    <img src="./mainImages/Project1.png" alt="">
-                    <img src="./mainImages/arrowRigth.png" alt="">
+                    <img id="imagemProjeto" src="./mainImages/Project1.png" alt="" data-link="https://heitorteixeirademenezes.github.io/personalProjects/Carsh/public/index.html">
+                    <img id="arrowRigth" src="./mainImages/arrowRigth.png" alt="">
                 </div>
             </div>
         </article>
@@ -127,6 +127,6 @@
         <p>Design e desenvolvimento feito por Heitor</p>
     </footer>
     
-    
+    <script src="script.js"></script>
 </body>
 </html>

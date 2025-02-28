@@ -275,7 +275,7 @@ footer p{
     margin-top: 30px;
     list-style: none;
     font-family: "Red Hat Text", serif;
-    font-size: 32px;
+    font-size: 20px;
 }
 @media (max-width: 1400px) {
     nav ul li{
@@ -608,18 +608,19 @@ footer p{
 }
 @media (max-width: 765px){
     aside{
-        width: 140px;
+        width: 130px;
     }
     div .myimage{
-        width: 140px;
+        width: 130px;
         height: 265px;
     }
     div .myimage img{
-        width: 150px;
-        height: 205px;
+        width: 130px;
+        height: 175px;
+        margin-bottom: 20px;
     }
     .apresentation{
-        width: 250px;
+        width: 235px;
         height: 90px;
         margin-left: 15px;
     }
@@ -638,18 +639,18 @@ footer p{
         font-size: 19px;
     }
     .socialLayers{
-        width: 250px;
+        width: 235px;
         margin-left: 8px;
     }
     .socialLayer1{
-        width: 250px;
+        width: 235px;
     }
     .socialLayer1 div{
         width: 62px;
         height: 62px;
     }
     .socialLayer2{
-        width: 250px;
+        width: 235px;
     }
     .socialLayer2 div{
         width: 62px;
@@ -668,7 +669,7 @@ footer p{
         height: 40px;
     }
     .sobreMim{
-        width: 400px;
+        width: 380px;
         flex-direction: column;
         align-items: center;
         right: 0px;
@@ -700,8 +701,8 @@ footer p{
         font-size: 19px;
     }
     .sobreP{
-        width: 400px;
-        height: 335px;
+        width: 370px;
+        height: 355px;
     }
     .sobreP p{
         text-align: center;
@@ -732,16 +733,16 @@ footer p{
         height: 60px;
     }
     .textTecnologias{
-        width: 270px;
+        width: 250px;
         height: 90px;
     }
     .textTecnologias p{
         margin: 20px;
-        font-size: 14.9px;
+        font-size: 14px;
     }
     .descriptionProjeto{
         order: 1;
-        width: 400px;
+        width: 380px;
         height: 200px;
     }
     .descriptionProjeto h3{
@@ -757,17 +758,17 @@ footer p{
         letter-spacing: 3px;
     }
     .imgProjeto{
-        width: 400px;
+        width: 380px;
         height: 240px;
     }
     .imgProjeto img:nth-child(1){
-        width: 350px;
+        width: 335px;
         margin: 0px;
     }
     .imgProjeto img:nth-child(2){
-        width: 20px;
+        width: 18px;
     }
     footer p{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
