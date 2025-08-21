@@ -143,7 +143,7 @@ h1{
 }
 .sobreP{
     width: 700px;
-    height: 572px;
+    height: auto;
     display: flex;
     justify-content: center;
 }
@@ -204,7 +204,7 @@ h1{
 }
 .descriptionProjeto{
     width: 449px;
-    height: 580px;
+    height: auto;
 }
 .descriptionProjeto h3{
     margin: 25px;
@@ -367,7 +367,7 @@ footer p{
     }
     .sobreP{
         width: 500px;
-        height: 487px;
+        height: auto;
     }
     .sobreP p{
         text-align: right;
@@ -411,7 +411,7 @@ footer p{
     }
     .descriptionProjeto{
         width: 369px;
-        height: 400px;
+        height: auto;
     }
     .descriptionProjeto h3{
         margin: 15px;
@@ -535,7 +535,7 @@ footer p{
     }
     .sobreP{
         width: 700px;
-        height: 335px;
+        height: auto;
     }
     .sobreP p{
         text-align: center;
@@ -584,7 +584,7 @@ footer p{
     .descriptionProjeto{
         order: 1;
         width: 670px;
-        height: 320px;
+        height: auto;
     }
     .descriptionProjeto h3{
         text-align: center;
@@ -702,7 +702,7 @@ footer p{
     }
     .sobreP{
         width: 370px;
-        height: 355px;
+        height: auto;
     }
     .sobreP p{
         text-align: center;
@@ -743,7 +743,7 @@ footer p{
     .descriptionProjeto{
         order: 1;
         width: 380px;
-        height: 200px;
+        height: auto;
     }
     .descriptionProjeto h3{
         text-align: center;

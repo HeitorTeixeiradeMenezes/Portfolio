@@ -25,6 +25,13 @@ let objProjects = [
         link: "https://heitorteixeirademenezes.github.io/personalProjects/Carsh/public/index.html"
     },
     {
+        imagem: "./mainImages/Project3.png",
+        nome: "Lançamento Iphone",
+        paragrafo: "Landing page desenvolvida para apresentar o lançamento do iPhone. Projeto focado em design moderno, responsivo e atrativo, simulando uma página oficial de divulgação.",
+        link: "https://heitorteixeirademenezes.github.io/iPhoneLancamento"
+
+    },
+    {
         imagem: "./mainImages/Project2.png",
         nome: "Portifolio",
         paragrafo: "Criei meu portfólio web para mostrar meus projetos, habilidades e experiências como desenvolvedor front-end. Ele tem um design moderno, é responsivo e inclui seções como sobre mim, projetos, contato e links para minhas redes.",
